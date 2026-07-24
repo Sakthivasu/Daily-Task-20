@@ -1,0 +1,19 @@
+1.Which part was hardest to connect together and why?
+
+Answer: The hardest part was connecting React, Flask, MySQL, JWT authentication, and Socket.
+IO together because all of them had to work correctly at the same time.
+
+
+2. How does your CSV upload work end to end?
+
+Answer: The user selects a CSV file, React sends it to the Flask backend, Flask reads and validates the data,
+ then inserts the records into the MySQL database. Finally, the frontend refreshes and shows the updated data.
+
+3. How does the activity feed update in real time?
+
+Answer: When a user uploads a CSV, the backend saves the data, creates an activity log, and sends a Socket.IO event. 
+The frontend receives the event and updates the activity feed instantly without refreshing the page.
+
+4. Looking back across all 20 tasks, which concept changed how you think about building software the most?
+Answer: Learning how the frontend, backend, database, authentication, and real-time communication work together changed my thinking the most. 
+It showed me how a complete full-stack application is built.
